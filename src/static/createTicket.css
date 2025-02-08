@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #ff6f91 !important;
+    color: #fcf7ff !important;
+}
+
+.nav-link {
+    color: #fcf7ff!important;
+}
+
+.content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+body {
+    background-image: url("./public/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

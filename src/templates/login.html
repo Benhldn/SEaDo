@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/login.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="/login" method="POST">
+            <div class="login-inputs">
+                <input type="text" name="inputEmail" placeholder="Email" required>
+                <input type="password" name="inputPassword" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </div>
+        </form>
+        <div class="sign-up">
+            <a href="{{ url_for('auth.signUp') }}">Sign Up</a>
+        </div>
+    </div>
+</body>
+</html>
