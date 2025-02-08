@@ -8,7 +8,9 @@ This is a ticket management tool for a university course where students should b
 
 
 # To run locally:
-1.  { pip install -r requirements.txt }
+1.  { python3 -m venv .venv }
+2.  { source .venv/bin/activate }
+1.  { python3 -m pip install -r requirements.txt }
 2.  { export FLASK_APP=src/ }
 3.  { flask run }
 
