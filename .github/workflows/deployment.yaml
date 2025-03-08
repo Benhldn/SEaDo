@@ -1,8 +1,9 @@
 name: Deploy Application
 
 on :
-  branches:
-    - main
+  workflow_run:
+    branches:
+      - main
 
 permissions:
   contents: read
