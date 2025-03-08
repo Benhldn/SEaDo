@@ -1,11 +1,8 @@
 name: Deploy Application
 
 on :
-  workflow_run:
-    workflows: ["Test & Linting"] 
-    types: [completed]
-    branches:
-      - main
+  branches:
+    - main
 
 permissions:
   contents: read
