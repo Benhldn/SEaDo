@@ -47,7 +47,7 @@ def populate_users():
 
     db_session.add_all(
         [
-            User(id="1", email="admin@email.com", password="Admin", admin=True)
+            User(id="1", email="admin@email.com", password="scrypt:32768:8:1$36BF1QFNFIgaBC9p$da250174cde1015755f4cca725bd3a2a8b728f2f46961e4ea23dc6dc4073b3341beb6a368a29e353247bd43749edfc7633f7645a0d4e109bacced32335827f5c", admin=True)
         ]
     )
     db_session.commit()
