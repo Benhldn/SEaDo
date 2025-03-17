@@ -51,7 +51,7 @@ def signUpPost():
         return redirect(url_for('auth.signUp'))
     else:
         # Hash the password
-        hashed_password = generate_password_hash(password, method='sha256')
+        hashed_password = generate_password_hash(password)
         
         new_user = User(email=email, password=hashed_password)
 

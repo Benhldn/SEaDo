@@ -28,16 +28,16 @@ def populate_tickets():
 
     db_session.add_all(
         [
-            Ticket(id="1", email="example@gmail.com", title="Ticket 1", description="This is a test", date="21-01-01"),
-            Ticket(id="2", email="example@gmail.com", title="Ticket 2", description="This is a test", date="21-01-01"),
-            Ticket(id="3", email="example@gmail.com", title="Ticket 3", description="This is a test", date="21-01-01"),
-            Ticket(id="4", email="example@gmail.com", title="Ticket 4", description="This is a test", date="21-01-01"),
-            Ticket(id="5", email="example@gmail.com", title="Ticket 5", description="This is a test", date="21-01-01"),
-            Ticket(id="6", email="example@gmail.com", title="Ticket 6", description="This is a test", date="21-01-01"),
-            Ticket(id="7", email="example@gmail.com", title="Ticket 7", description="This is a test", date="21-01-01"),
-            Ticket(id="8", email="example@gmail.com", title="Ticket 8", description="This is a test", date="21-01-01"),
-            Ticket(id="9", email="example@gmail.com", title="Ticket 9", description="This is a test", date="21-01-01"),
-            Ticket(id="10", email="example@gmail.com", title="Ticket 10", description="This is a test", date="21-01-01"),
+            Ticket(email="example@gmail.com", title="Ticket 1", description="This is a test", date="21-01-01"),
+            Ticket(email="example@gmail.com", title="Ticket 2", description="This is a test", date="21-01-01"),
+            Ticket(email="example@gmail.com", title="Ticket 3", description="This is a test", date="21-01-01"),
+            Ticket(email="example@gmail.com", title="Ticket 4", description="This is a test", date="21-01-01"),
+            Ticket(email="example@gmail.com", title="Ticket 5", description="This is a test", date="21-01-01"),
+            Ticket(email="example@gmail.com", title="Ticket 6", description="This is a test", date="21-01-01"),
+            Ticket(email="example@gmail.com", title="Ticket 7", description="This is a test", date="21-01-01"),
+            Ticket(email="example@gmail.com", title="Ticket 8", description="This is a test", date="21-01-01"),
+            Ticket(email="example@gmail.com", title="Ticket 9", description="This is a test", date="21-01-01"),
+            Ticket(email="example@gmail.com", title="Ticket 10", description="This is a test", date="21-01-01"),
         ]
     )
     db_session.commit()
