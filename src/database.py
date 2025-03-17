@@ -14,7 +14,7 @@ def init_db():
     from .models import Ticket, User
     Base.metadata.create_all(bind=engine)
 
-    checkTickets = db_session.get(Ticket, 1)
+    checkTickets = db_session.get(Ticket, 9)
     if not checkTickets:
         populate_tickets()
 
